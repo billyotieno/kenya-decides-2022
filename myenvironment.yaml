@@ -1,0 +1,13 @@
+name: twi-api
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - codecov
+  - pip
+  - numpy
+  - flask
+  - pandas
+  - pip:
+      twint
