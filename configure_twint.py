@@ -5,7 +5,7 @@ import re
 
 # Configure Twint
 c = twint.Config()
-c.Search = '"#KenyaDecides2022"'
+c.Search = "#KenyaDecides2022"
 c.Store_json = True
 c.output = "kenyadecides_tweets.json"
 
