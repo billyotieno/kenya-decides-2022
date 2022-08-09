@@ -11,3 +11,9 @@ This repo contains a collection of datasets scrapped from Twitter from the Hasht
 #RutoThe5THPresident
 #IEBC
 ```
+
+### How to execute the script
+
+```
+python .\snscrape_extract.py --hashtag '#KenyasChoice2022' --maximum_tweet_count=1000000 --file_name=kenyaschoicetweets.json
+```
